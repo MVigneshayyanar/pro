@@ -1,0 +1,160 @@
+body{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+}
+#getintouchlogo img{
+    border-radius: 50%;
+    height: 70px;
+}
+#git{
+    z-index:+99;
+    left: 90%;
+    bottom: 0%;
+    position:sticky;
+    align-items: center;
+    justify-content:end;
+    display: flex;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+#maincontainer{
+    color: #AB71F4;
+    backdrop-filter: blur(10px);
+    background-color:#1e132c;
+    margin: 0%;
+    padding: 0%;
+    width: 1024px;
+}
+/* Title */
+.title{
+    padding-left: 20px;
+    color:#ffffff;
+}
+/* Navbar */
+nav{
+    display: flex;
+    z-index: +1;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+}
+nav ul li{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+nav button{
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #AB71F4;
+}
+nav h4{
+    color: rgb(255, 255, 255);
+}
+nav ul li a p{
+    font-size:medium;
+    color: #ffffff;
+    font-weight:bold;
+}
+nav button:hover{
+    cursor: pointer;
+}
+/* Event */
+section{
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+event{
+    background-color: #ac71f431;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+.iofe{
+    width: 30%;
+    height: 50%;
+    border-radius: 10px;
+    margin: 2%;
+    object-fit:cover;
+}
+.con{
+    color: #ffffff;
+    margin-left: 1%;
+    font-size: 100%;
+    line-height: 40px;
+}
+.con l{
+    line-height: 0px;
+}
+/* FORM */
+form {
+    max-width: 400px;
+    margin: 5px auto;
+    margin-top: 5%;
+    padding: 20px;
+    background-color: #AB71F4;
+    border-radius: 10px;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #1e132c;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+form button {
+    background-color: #1e132c;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #1e132c;
+}
+
+form input.name,textarea.msg,input.email{
+    background-color: white;
+    border: 1px solid #1e132c;
+}
+form h3{
+    color: #1e132c;
+    font-size: 1.5em;
+    padding: 0%;
+    margin: 0%;
+    
+}
